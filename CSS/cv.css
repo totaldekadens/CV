@@ -10,11 +10,20 @@ body {
     
 }
 
+a:link, :visited {
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+}
+
 p, li, h5, b {
     color: rgba(255, 255, 255, 0.616);
 }
 
-
+.startsida {
+    position: absolute;
+    left: 25px;
+    top:25px;
+}
 
 h3 {
     margin:0;
@@ -25,9 +34,9 @@ h3 {
 
 header {
     display: flex;
-    margin-top: 10px;
-    margin-left:10px;
-    margin-right:10px;
+    margin-top: 20px;
+    margin-left:20px;
+    margin-right:20px;
     height: 200px;
     justify-content: center;
     align-items: center;
@@ -67,11 +76,11 @@ main {
 .workExperienceTitle {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     width: 50%;
-    padding:10px;
+    padding:25px;
     min-width: 360px;
     background-color: rgba(0, 0, 0, 0.45);
     box-shadow: 0px 0px 10px rgb(65, 65, 65);
@@ -80,11 +89,11 @@ main {
 .competence {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;  
+    margin-top: 20px;  
     width: 50%;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding:10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding:25px;
     min-width: 360px;
     background-color: rgba(0, 0, 0, 0.45);
     box-shadow: 0px 0px 10px rgb(65, 65, 65);
@@ -120,8 +129,9 @@ footer {
 
 height: 150px;
 background-color: rgba(0, 0, 0, 0.45);
-margin-right:10px;
-margin-left: 10px;
+margin-right:20px;
+margin-left: 20px;
+margin-top: 20px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -132,6 +142,7 @@ align-items: center;
     header {
         margin-left: 0;
         margin-right: 0;
+        margin-top: 0px;
     }
 
     main {
@@ -151,6 +162,11 @@ width: 100%;
     footer {
         margin-left:0px;
         margin-right: 0px;
+    }
+
+    .startsida {
+        top:5px;
+        left:5px;
     }
 }
    
