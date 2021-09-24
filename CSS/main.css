@@ -224,7 +224,24 @@ main, .bigbox, .smallbox, .projekt {
     margin-bottom: 10px;
 }
 
+.scrolldown {
+    left: 10px;
+    top:10px;
+}   
 
+.scrollup {
+    right: 30px;
+    bottom: 15px;     
+}
+
+footer {
+    margin-bottom: 0px;
 }
 
 
+}
+
+@media screen and (max-width: 400px) {
+
+ 
+}
