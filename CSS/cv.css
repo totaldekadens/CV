@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    color: white
+}
+
+body {
+    margin:0;
+    background-color: rgb(65, 65, 65);
+    
+}
+
+
+header {
+    display: flex;
+    margin-top: 10px;
+    margin-left:10px;
+    margin-right:10px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 0px 10px rgb(65, 65, 65);
+
+}
+
+.rubrik {
+width: 500px;
+height:200px;
+display: flex;
+flex-direction: column;
+align-items: center;
+min-width: 360px;
+
+
+
+}
+
+.rubrik > h1 {
+    font-size: 45px;
+
+}
+
+
+main {
+    display:flex;
+}
+
+#name {
+    color: rgb(175, 138, 42);
+}
+
+
+.workExperienceTitle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50%;
+    padding:10px;
+    min-width: 360px;
+    background-color: rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 0px 10px rgb(65, 65, 65);
+}
+
+.competence {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;  
+    width: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding:10px;
+    min-width: 360px;
+    background-color: rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 0px 10px rgb(65, 65, 65);
+
+
+}
+
+p {
+    margin:0;
+    font-size: 16px;
+}
+
+h5 {
+    margin-top: 0;
+}
+
+.containerlogo {
+    width: 100px;
+    margin-top: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h4 {
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+footer {
+
+height: 150px;
+background-color: rgba(0, 0, 0, 0.45);
+margin-right:10px;
+margin-left: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+@media screen and (max-width: 935px) {
+
+    header {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    main {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .workExperienceTitle {
+        width: 100%;
+    }
+
+    .competence {
+width: 100%;
+    }
+
+    footer {
+        margin-left:0px;
+        margin-right: 0px;
+    }
+}
+   
