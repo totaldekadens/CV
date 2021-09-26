@@ -20,27 +20,6 @@ a:link, :visited {
     color: white;
 }
 
-h1 {
-    font-size: 50px;
-}
-
-h2 {
-    font-size: 30px;
-    color: rgba(150, 133, 93, 0.87);
-}
-
-h1, h2, h3, h4, h5, p {
-    margin:0;
-}
-
-q {
-    font-size: 30px;
-}
-
-li {
-    font-size: 18px;
-}
-
 img {
     width: 100%;
     height: 100%;
@@ -79,12 +58,12 @@ header {
 } 
 
 .citat {
-width: 400px;
-height: 200px;
-margin-top: 30px;
-justify-content: center;
-align-items: flex-start;
-padding-left: 90px;
+    width: 400px;
+    height: 200px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 90px;
 
 }
 
@@ -154,9 +133,9 @@ main {
 }
 
 footer {
-justify-content: space-evenly;
-background-color: rgba(0, 0, 0, 0.45);
-margin:20px;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.45);
+    margin:20px;
 }
 
 .footboxes {
@@ -166,48 +145,38 @@ margin:20px;
 }
 
 @media screen and (max-width: 1350px) {
-    .smallbox {
+.smallbox {
 
-        margin-top: 0px;
-    }
+    margin-top: 0px;
+}
 
-    .citat {
-        display:none;
-    }
+.citat {
+    display:none;
+}
 
 }
 
 @media screen and (max-width: 950px) {
-    .profile {
-        width: 200px;
-        height: 280px;
-    }
+.profile {
+    width: 200px;
+    height: 280px;
+}
 
-    .footboxes {
-        width: 100px;
-        height: 100px;
-    }
+.footboxes {
+    width: 100px;
+    height: 100px;
+}
 }
 
 @media screen and (max-width: 750px) {
 
-h1 {
-    font-size: 35px;
-}
-
-h2{ 
-    font-size: 26px;
-}
 
 .profilebar {
     align-items: center;
     padding-left: 20px;
     margin-left: 0px;
 }
-
-
-
-   
+ 
 }
 
 @media screen and (max-width: 700px) {
@@ -268,82 +237,53 @@ footer {
     height: 160px;
 }
 
-
 }
 
 @media screen and (max-width: 423px) {
 
-    footer {
-        margin-bottom: 0px;
-        height: 280px;
-    }
+footer {
+    margin-bottom: 0px;
+    height: 280px;
+}
 
-    .scrollup {
-        right: 8px;
+.scrollup {
+    right: 8px;
 }
 
 }
 
-    @media screen and (max-width: 325px) {
+@media screen and (max-width: 325px) {
 
-        h3 {
-            font-size: 15px;
-        }
+.profile {
+    width: 140px;
+    height: 180px;
+}
 
-        h1 {
-            font-size: 30px;
-        }
+header  {
+    height:440px;
+    padding-bottom: 0px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    min-width: 200px;
+}
 
-        h2 {
-            font-size: 20px;
-        }
+.profilebar {
+    min-width: 240px;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+}
 
-        .profile {
-            width: 140px;
-            height: 180px;
-        }
-
-        header  {
-            height:440px;
-            padding-bottom: 0px;
-            justify-content: flex-start;
-            flex-wrap: wrap;
-            min-width: 200px;
-        
-        }
-
-        .profilebar {
-            min-width: 240px;
-            margin-bottom: 0px;
-            flex-wrap: wrap;
-        }
-
-        .bigbox { flex-wrap: wrap;}
+.bigbox { 
+    flex-wrap: wrap;}
 
 
 
-    @media screen and (max-width: 292px) {
+@media screen and (max-width: 292px) {
 
 footer {
     height: 470px;
 }
 
-li {
-    font-size: 14px;
-}
-
-h3 {
-    font-size: 16px;
-}
-
-h1 {
-    font-size: 25px;
-}
-
-h2 {
-    font-size: 15px;
-}
 
 }
-
-    }
+}
